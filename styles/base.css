@@ -1,9 +1,6 @@
 body {
-    background: 050029;
     display: grid;
-    grid-template-rows: 6 1fr;
-    grid-template-columns: 6fr;
-    
+    grid-template-columns: 6fr;  
 }
 
 * {
