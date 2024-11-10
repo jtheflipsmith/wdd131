@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <title>WDD 131 - Dinamic Web Fundamentals - Joshua Smith</title>
+    <meta name="description" content="WDD 131 - Dinamic Web Fundamentals - Joshua Smith - My info, assignment access, links to more of me.">
+    <meta name="author" content="Joshua C Smith">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
     <header>
-        <nav>
-            <h1><a href="week01/basic-layout.html">Week One</a></h1>
+        <h1>WDD 131 - Dinamic Web Fundamentals - Joshua Smith</h1>
+        <nav class="navigation">
+            <a href="https://www.linkedin.com/in/joshua-smith-1630b2167/" target="_blank">LinkedIn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng" target="_blank">Scripture</a>
+            <a href="#">Final Project</a>
+            <a href="week01/basic-layout.html">Week One</a>
         </nav>
     </header>
+    <main>
+        <section class="card">    
+            <h1>About Me</h1>
+            <div class="king">
+                <img src="images/profile-pic.jpg" alt="Josh and Madison outside smiling"> 
+                <p>You can call me Josh, though my full name is Joshua. I live in Alberta, Canada, and I love everything about it here besides the cold. One of my many passions is drawing, I love being a creative and discovering new ways to apply that creativity!</p>
+                <p>I am currently working full time while also taking classes, which, let me tell you, can make life pretty difficult sometimes. Especially when I want to do so many things with my time!</p>
+                <p>I am an author, a poet, and an artist in my own right, and look forward to the creative works I can bring about through my efforts.</p>
+            </div>
+            <div class="queen">
+                <img src="images/canada-flag.jpg" alt="Canadian Flag">
+                <p>I have lived in Canada my whole life and I love it here.</p>
+                <p>If you ever want to enjoy Canada you have two options, either come from June to August and enjoy amazing nature, hiking and lakes, or grab your winter gear and come ski, snowboard or skate.</p>
+            </div>
+            
+        </section>
+        <section class="card">
+            <h1>Web Dev Resources</h1>
+            <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>
+            <a href="https://www.w3schools.com/" target="_blank">W3 Schools</a>
+            <a href="https://developer.mozilla.org/" target="_blank">MDM Web Docs</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy<span id="currentyear"></span> | Joshua Smith | Canada</p>
+        <div class="mod">
+            <p id="lastModified"></p>
+        </div>
+        
+    </footer>
 </body>
 </html>
