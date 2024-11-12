@@ -75,7 +75,7 @@ main {
 
 .king img {
     height: 200px;
-    box-shadow: 3px 3px 3px lightgray;
+    box-shadow: 3px 3px 3px gray;
     float: right;
     margin: 10px; 
 }
@@ -90,6 +90,7 @@ main {
     float: left;
     height: 150px;
     padding: 10px;
+    margin-right: 10px;
     
 }
 
