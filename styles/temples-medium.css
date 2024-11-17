@@ -1,0 +1,24 @@
+@media screen and (min-width: 700px){
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 25px;
+}
+
+.navigation li{
+    display: block;
+    flex: 1 1 100%;
+}
+
+#menu {
+    display: none; 
+
+}
+.picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+    
+}

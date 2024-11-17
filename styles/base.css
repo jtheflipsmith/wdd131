@@ -24,10 +24,11 @@ header h1 {
 .navigation {
     display: flex;
     justify-content: space-around;
+
     padding: 15px;
     background: var(--jet);
     border-radius: 4px;
-    
+
 
 }
 
