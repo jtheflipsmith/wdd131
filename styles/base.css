@@ -1,5 +1,7 @@
 body {
     display: grid;
+    font-family: "Atma", sans-serif;
+    font-weight: 600;
     grid-template-columns: 6fr;  
 }
 
@@ -36,7 +38,6 @@ header h1 {
 .navigation a {
     color: var(--seashell);
     text-decoration: none;
-    font-family:'Courier New', Courier, monospace;
     padding: 10px;
     
 }
@@ -53,6 +54,7 @@ header h1 {
 
 main {
     display: grid;
+    max-width: fit-content;
     gap: 1rem;
     grid-template-columns: 1fr 30%;
     margin-top: 10px;
