@@ -1,0 +1,61 @@
+@media screen and (min-width: 600px) {
+
+    .title {
+        background: red;
+        padding-left: 1rem;
+        margin-left: -1rem;
+        color: white;
+        box-shadow: 3px 3px 5px black;
+    }
+    
+    .data {
+        position: absolute;
+        left: 20px;
+        top: 200px;
+        margin: 3rem;
+        padding: 10px;
+        box-shadow: 10px 10px 10px;
+        background: rgba(255, 255, 255, 0.8);
+        width: 200px;
+        font-family: 'Times New Roman', Times, serif;
+        border: none;
+    }
+    
+    .data:hover {
+        background: rgba(255, 255, 255, 1)
+    
+        
+    }
+    
+    .weather {
+        position: absolute;
+        background: white;
+        right: 20px;
+        bottom: 100px;
+        margin: 3rem;
+        padding: 10px;
+        box-shadow: 10px 10px 10px;
+        background: rgba(255, 255, 255, 0.8);
+        width: 200px;
+        font-family: 'Times New Roman', Times, serif;
+        border: none;
+    }
+    
+    .weather img {
+        
+        width: 100px;
+    }
+    
+    .weather h2 {
+        background: red;
+        padding-left: 1rem;
+        color: white;
+        justify-content: right;
+        margin-left: -1rem;
+    }
+    
+    .weather:hover {
+        background: rgba(255, 255, 255, 1);
+    }
+    
+}

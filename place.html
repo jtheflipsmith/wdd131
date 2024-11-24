@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place</title>
+    <meta name="description" content="outlining a place and its information">
+    <meta name="author" content="Joshua Smith">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Canada</h1>
+    </header>
+    <main>
+
+        <picture>
+            <source srcset="images/hero-image-large.webp" media="min-width: 1000px">
+            <img src="images/snow-path.jpeg" alt="Orem Utah Temple" >
+          </picture>
+               
+        <div class="data">
+            <div class="title">
+                <h2>Data</h2>
+            </div>
+            <p>Area: 9.985 million square kilometres</p>
+            <p>Population: 39,742,430</p>
+            <p>Capital:</p>
+            <p>Languages: English, French</p>
+            <p>Currency: Canadian Dollar</p>
+            <p>Time Zone: UTC -7</p>
+            <p>Calling Code: +1</p>
+            <p>Internet TLD: .ca</p>
+        </div>
+        <div class="weather">
+            <h2>Weather</h2>
+            <img src="images/weather-icon.webp" alt="">
+            <p>Temperature: -20</p>
+            <p>Conditions: Snow</p>
+            <p>Wind: 10 km/h</p>
+            <p>Wind Chill: <span id="windChillResult"></span></p>
+
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> | Joshua Smith | Canada</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
