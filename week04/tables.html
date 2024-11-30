@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <meta name="description" content="Brief look at tables">
+    <meta name="author" content="Joshua Smith">
+    <link rel="stylesheet" href="styles/table.css">
+</head>
+<body>
+    <h1>Table Activity</h1>
+
+    <table>
+        <caption>ACME Wildwest Services</caption>
+
+        <thead>
+            <tr>
+                <td></td>
+                <th id="basic">Basic</th>
+                <th id="premium">Premium</th>
+                <th id="deluxe">Deluxe</th>
+            </tr>
+            <tr>
+                <th id="feature-one">Feature 1</th>
+                <td headers="feature-one basic">✔️</td>
+                <td headers="feature-one premium">✔️</td>
+                <td headers="feature-one deluxe">✔️</td>
+            </tr>
+            <tr>
+                <th id="feature-two">Feature 2</th>
+                <td headers="feature-two basic">❌</td>
+                <td headers="feature=two premium">✔️</td>
+                <td headers="feature-two deluxe">✔️</td>
+            </tr>
+            <tr>
+                <th id="feature-three">Feature 3</th>
+                <td headers="feature-three basic">❌</td>
+                <td headers="feature-three premium">❌</td>
+                <td headers="feature-three deluxe">✔️</td>
+            </tr>
+        </thead>
+    </table>
+    
+</body>
+</html>

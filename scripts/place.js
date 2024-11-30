@@ -1,15 +1,3 @@
-// create boxes for our items we want to use
-const mainNavigation = document.querySelector(".navigation")
-const hambutton = document.querySelector("#menu")
-
-//toggle
-hambutton.addEventListener('click', () => {
-    mainNavigation.classList.toggle('show');
-
-    hambutton.classList.toggle('show');
-});
-
-
 // getting current year to the copyright
 const year = new Date().getFullYear();
 document.querySelector("#currentYear").textContent = year;
@@ -27,4 +15,6 @@ function calculateWindChill() {
     return windChill.toFixed(2);
 }
 
-document.getElementById('windChillResult').innerText = windChill;
+let factor = calculateWind
+
+document.querySelector('#windChillResult').innerText = factor;

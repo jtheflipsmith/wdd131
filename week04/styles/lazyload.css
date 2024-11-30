@@ -1,0 +1,12 @@
+main {
+    background: grey;
+    display: block;
+    width: 400px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    background: black;
+    
+}
