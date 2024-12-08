@@ -1,0 +1,44 @@
+Pattern Attribute:
+
+   Enables you to set a required pattern in your field within the form. User input
+must match the pattern in order to be considered valid.
+
+   Same expression syntax as javascript
+
+   Regular Expressions - Feature in most programming languages to specify patterns
+of characters. (Famously indecipherable to the uninitiated)
+
+    EXAMPLE:
+    -------
+
+<li>
+<label for="password">I would like my password to be:</label>
+<p>(at least 6 characters, no spaces)</p>
+<input type="password" id="password" name="password" required title="(at least 6 characters, no spaces)" pattern="\S{6}">
+</li>
+
+\S - refers to "any nonwhitespace characters," 
+{6,} - means at least six times. 
+
+stipulating a max amount of characters would ook like this:
+
+\S{6, 10} - 6 being minimum, and 10 being the maximum
+
+
+
+Disabled Attribute:
+
+
+
+
+
+// JAVASCRIPT
+
+Callback function: 
+-- a function passed inside another function completing an action outside of the function.
+
+synchronous - called as soon as the code reaches the callback function.
+asynchonous - called at some other point in the process.
+
+
+

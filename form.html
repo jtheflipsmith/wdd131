@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <meta name="description" content="Form practice and solidifying of knowledge">
+    <meta name="author" content="Jtheflipsmith">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <main>
+
+            <form method="get" action="form-thanks.html" class="revForm">
+                <h1>Product Review</h1>
+                <fieldset>
+                    <legend>Product Name</legend>
+                        <select name="subject" id="pOptions" disabled required>
+                            <option>Choose a Product...</option>
+                        </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Overall Rating</legend>
+                    <label><input type="radio" name="stars" id="one-star" required>&star;</label>
+                    <label><input type="radio" name="stars" id="two-star" required>&star;&star;</label>
+                    <label><input type="radio" name="stars" id="three-stars" required>&star;&star;&star;</label>
+                    <label><input type="radio" name="stars" id="four-stars" required>&star;&star;&star;&star;</label>
+                    <label><input type="radio" name="stars" id="five-stars" required>&star;&star;&star;&star;&star;</label>
+                </fieldset>
+                <fieldset>
+                    <label>Date of Installation <input type="text" name="date" placeholder="mm/dd/yyyy"></label>
+                </fieldset>
+                <fieldset>  
+                    <legend>Which features did you find useful in the product</legend>
+                    <label><input type="checkbox" name="durability" value="yes">Durability</label>
+                    <label><input type="checkbox" name="ease" value="yes">Ease of Use</label>
+                    <label><input type="checkbox" name="performance" value="yes">Performance</label>
+                    <label><input type="checkbox" name="design" value="yes">Design</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Written Review</legend>
+                    <textarea name="review" placeholder="Text here"></textarea>
+                </fieldset>
+                <fieldset>
+                    <label>Your Name <input type="text" name="name" placeholder="John Stewart"></label>
+                </fieldset>
+                <fieldset>
+                    <input type="submit" value="Post Your Review">
+                </fieldset>
+            </form>
+
+            <p><span class="label">Number of Visits:<span class="visits"></span></span></p>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> | Joshua Smith | Canada</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

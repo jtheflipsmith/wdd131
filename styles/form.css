@@ -1,0 +1,54 @@
+body {
+    max-width: 500;
+}
+
+/* ---------- FORM STYLING --------- */
+
+.revForm {
+    max-width: 450px;
+    background: lightgray;
+    box-shadow: inset 0 0 5px gray;
+    padding-bottom: 1rem;
+}
+
+.revForm h1 {
+    background: linear-gradient(blue, rgb(27, 85, 247));
+    padding: 1rem; 
+    margin: none;
+}
+
+.revForm label {
+    padding-top: 1rem;
+    display: block;
+}
+
+.revForm input[type="text"],
+.revForm input select,
+.revForm textarea,
+.revForm input[type="textbox"] {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    padding: .75rem;
+    max-width: 400px;
+}
+
+.revForm fieldset {
+    border: none;
+    margin: .5rem 0;
+}
+
+.revForm textarea {
+    height: 50px;
+}
+
+.revForm input[type="checkbox"] {
+
+    margin-right: 6px;
+}
+
+.revForm input[type="submit"] {
+    width: 98%;
+    padding: .75rem;
+    box-shadow: 1px 1px 2px gray;
+}

@@ -85,7 +85,11 @@ const temples = [
     // Add more temple objects here...
   ];
 
+let oldTemples = document.querySelector("#ols");
 
+oldTemples.addEventListener("click", () => {
+    templeCardCreation(temples.filter(!temple.date < 1900))
+})
 
 function templeCardCreation(filteredTemples) {
     document.querySelector(".cards").innerHTML = "";
