@@ -1,4 +1,9 @@
-@media screen and (min-width: 700px){
+@media screen and (min-width: 750px){
+
+header {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
 
 .navigation {
     display: flex;

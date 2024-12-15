@@ -87,13 +87,9 @@ const temples = [
 
 let oldTemples = document.querySelector("#ols");
 
-oldTemples.addEventListener("click", () => {
-    templeCardCreation(temples.filter(!temple.date < 1900))
-})
-
-function templeCardCreation(filteredTemples) {
+function templeCardCreation(temples) {
     document.querySelector(".cards").innerHTML = "";
-    filteredTemples.forEach ((temple) => {
+    temples.forEach (temple => {
         let card = document.createElement("section");
         let name = document.createElement("h1");
         let location = document.createElement("p");
@@ -120,7 +116,7 @@ function templeCardCreation(filteredTemples) {
   });
 }
 
-templeCardCreation();
+templeCardCreation(temples);
 
 
 

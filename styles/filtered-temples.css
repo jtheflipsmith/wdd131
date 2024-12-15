@@ -98,21 +98,21 @@ header h1 {
     content: "|";
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-}
 
 main h2 {
     text-align: center;
 }
 
-figure {
-    display: grid;
-    grid-template-columns: 1fr;
+#temples {
+    display: block;
 }
 
-figure img {
-    width: 300px;
-    margin-bottom: 10px;
+section {
+    background: lightgray;
+    padding: 20px;
+
+}
+
+section img {
+    width: 100%;
 }
